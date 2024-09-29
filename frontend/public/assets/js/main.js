@@ -1,7 +1,7 @@
 /**
-* Template Name: FlexStart
+* Template Name: NeighborHood
 * Updated: Jan 29 2024 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+* Template URL: https://bootstrapmade.com/NeighborHood-bootstrap-startup-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */

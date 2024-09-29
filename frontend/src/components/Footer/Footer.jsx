@@ -30,11 +30,11 @@ const Footer = () => {
             <div className="row gy-4">
               <div className="col-lg-5 col-md-12 footer-info">
                 <Link
-                  to="/index.html"
+                  to="/"
                   className="logo d-flex align-items-center"
                 >
                   <img src="assets/img/logo.png" alt="" />
-                  <span>FlexStart</span>
+                  <span>NeighborHood</span>
                 </Link>
                 <p>
                   Cras fermentum odio eu feugiat lide par naso tierra. Justo
@@ -131,7 +131,7 @@ const Footer = () => {
           <div className="copyright">
             &copy; Copyright{" "}
             <strong>
-              <span>FlexStart</span>
+              <span>NeighborHood</span>
             </strong>
             . All Rights Reserved
           </div>

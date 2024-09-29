@@ -5,11 +5,9 @@ export const About = () => {
   return (
     <>
     <main id="main">
-        <section id="about" className="about">
-
+        <section id="about" className="about py-70">
           <div className="container" data-aos="fade-up">
             <div className="row gx-0">
-
               <div className="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
                 <div className="content">
                   <h3>Who We Are</h3>
@@ -25,28 +23,19 @@ export const About = () => {
                   </div>
                 </div>
               </div>
-
               <div className="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
                 <img src="assets/img/about.jpg" className="img-fluid" alt=""/>
               </div>
-
             </div>
           </div>
-
         </section>
-
-        
         <section id="values" className="values">
-
           <div className="container" data-aos="fade-up">
-
             <header className="section-header">
               <h2>Our Values</h2>
               <p>Odit est perspiciatis laborum et dicta</p>
             </header>
-
             <div className="row">
-
               <div className="col-lg-4" data-aos="fade-up" data-aos-delay="200">
                 <div className="box">
                   <img src="assets/img/values-1.png" className="img-fluid" alt=""/>
@@ -54,7 +43,6 @@ export const About = () => {
                   <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
                 </div>
               </div>
-
               <div className="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
                 <div className="box">
                   <img src="assets/img/values-2.png" className="img-fluid" alt=""/>
@@ -62,7 +50,6 @@ export const About = () => {
                   <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
                 </div>
               </div>
-
               <div className="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
                 <div className="box">
                   <img src="assets/img/values-3.png" className="img-fluid" alt=""/>
@@ -70,11 +57,8 @@ export const About = () => {
                   <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
                 </div>
               </div>
-
             </div>
-
           </div>
-
         </section>
         </main>
     </>
