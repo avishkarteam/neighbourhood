@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-
+import heroImage from "../../assets/img/hero-img.png"
 const Header = () => {
   return (
     <>
     <section id="hero" className="hero align-items-center mt-4">
-        <div className="container">
+        <div className="container mt-4">
           <div className="row">
             <div className="col-lg-6 d-flex flex-column justify-content-center">
               <h1 data-aos="fade-up">
@@ -28,7 +28,7 @@ const Header = () => {
               data-aos="zoom-out"
               data-aos-delay="200"
             >
-              <img src="assets/img/hero-img.png" className="img-fluid" alt="" />
+              <img src={heroImage} className="img-fluid" alt="" />
             </div>
           </div>
         </div>

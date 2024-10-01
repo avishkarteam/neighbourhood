@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import aboutImage from "../../assets/img/about.jpg"
 
 export const About = () => {
   return (
     <>
     <main id="main">
-        <section id="about" className="about py-70">
+        <section id="about" className="about mt-xxl-5 mt-4">
           <div className="container" data-aos="fade-up">
             <div className="row gx-0">
               <div className="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
@@ -24,7 +25,7 @@ export const About = () => {
                 </div>
               </div>
               <div className="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                <img src="assets/img/about.jpg" className="img-fluid" alt=""/>
+                <img src={aboutImage} className="img-fluid" alt=""/>
               </div>
             </div>
           </div>
